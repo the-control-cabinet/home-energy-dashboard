@@ -1,0 +1,12 @@
+meter,utility,level,source,path,status
+Electricity import,Electricity,Main,Smart-meter data service (DCC),Cloud,Live
+Gas,Gas,Main,Smart-meter data service (DCC),Cloud,Live
+Mains water,Water,Main,Clamp-on ultrasonic meter (Modbus RTU),Local,Live
+EV charger,Electricity,Sub,Vendor cloud,Cloud,Live
+Boiler supply,Electricity,Sub,CT clamp (ESPHome),Local,To fit
+UFH pump,Electricity,Sub,CT clamp (ESPHome),Local,To fit
+Cooker circuit,Electricity,Sub,CT clamp (ESPHome),Local,To fit
+VPin rails (4),Electricity,Sub,Hall clamps (ESPHome),Local,Live
+Shower,Water,Sub (inferred),Event detection,Local,Live
+Washing machine,Water,Sub (inferred),Vibration + flow,Local,Live
+Tariffs,All,n/a,Supplier API,Cloud,Live
