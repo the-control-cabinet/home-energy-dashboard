@@ -12,7 +12,7 @@
 > - **This project:** a **metering hierarchy**, tariff-correct **costs**, **KPIs** and a dashboard.
 > - **Prerequisite:** the supplier integration's entries need tidying up (161 config entries, with duplicate cost trackers).
 
-**Portfolio position:** Management level · energy and metering (portfolio project #5). Related: [Mains water metering](https://github.com/the-control-cabinet/mains-water-metering-modbus-rtu) · [Heating plant monitoring](https://github.com/the-control-cabinet/heating-plant-monitoring-esphome) · [HA integration schedule](https://github.com/the-control-cabinet/home-assistant-integration-schedule)
+**Portfolio position:** Management level · energy and metering (portfolio project #5). Related: [Mains water metering](https://github.com/the-control-cabinet/mains-water-metering-modbus-rtu) · [Heating plant monitoring](https://github.com/the-control-cabinet/heating-plant-monitoring-esphome) · [HA integration schedule](https://github.com/the-control-cabinet/home-assistant-integration-schedule) · [Optimum start/stop](https://github.com/the-control-cabinet/optimum-start-stop-supervisory) · [OpenTherm control](https://github.com/the-control-cabinet/opentherm-boiler-control-esphome)
 
 ---
 
@@ -72,6 +72,7 @@ The pattern, as in a BMS: **main meter → sub-meters → calculated remainder**
 6. Alerts: high baseload, an unusual daily cost, overnight water flow.
 
 ## 6. Roadmap
+- [ ] **Step F:** the before/after report for the heating sequence (baseline → optimum start/stop → OpenTherm), using gas per degree-day and cycles per hour.
 - [ ] Supplier entry tidy-up.
 - [ ] Energy dashboard configuration.
 - [ ] KPIs and dashboard.
