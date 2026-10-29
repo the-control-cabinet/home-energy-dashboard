@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.1.2] - 2026-10-28
+- Link to demand-side energy management (load shifting, peak limiting).
+
 ## [0.1.1] - 2026-10-28
 - Links to optimum start/stop and OpenTherm; step F (before/after report) on the roadmap.
 
